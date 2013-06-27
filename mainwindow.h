@@ -3,6 +3,8 @@
 
 #include <QMainWindow>
 
+#include "Reports/report1.h"
+
 namespace Ui {
 class MainWindow;
 }
@@ -20,6 +22,7 @@ private slots:
 
 private:
     Ui::MainWindow *ui;
+
 };
 
 #endif // MAINWINDOW_H

@@ -12,9 +12,10 @@ TEMPLATE = app
 
 SOURCES += main.cpp\
         mainwindow.cpp \
-    reports.cpp
+    Reports/report1.cpp
 
 HEADERS  += mainwindow.h \
-    reports.h
+    Reports/report1.h
 
-FORMS    += mainwindow.ui
+FORMS    += mainwindow.ui \
+    Reports/report1.ui
